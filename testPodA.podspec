@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPodA'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'testPodA summary'
 
 # This description is used to generate tags and improve search results.
@@ -43,8 +43,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'AVFoundation', 'CoreBluetooth', 'MediaPlayer', 'CoreGraphics', 'AudioToolbox', 'CoreAudio'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.vendored_libraries = 'testPodA/Classes/libSimplyPrint-1.5.1.a'
-  s.vendored_framework = 'testPodA/Classes/testClassAFramework.framework'
+  # s.vendored_libraries = 'testPodA/Classes/libSimplyPrint-1.5.1.a'
+  s.vendored_framework = 'testPodA/Classes/BBPOS.framework'
 
 
 
