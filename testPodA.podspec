@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPodA'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'testPodA summary'
 
 # This description is used to generate tags and improve search results.
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'testPodA description'
-  s.homepage         = 'https://github.com/alexw621/testRepoA'
+  s.homepage         = 'https://github.com/alexw621/testPodA'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Wong' => 'alex.wong@bbpos.com' }
-  s.source           = { :git => 'https://github.com/alexw621/testRepoA.git'}
+  s.source           = { :git => 'https://github.com/alexw621/testPodA.git'}
 
   # empty for using the root version
 # , :tag => s.version.to_s
