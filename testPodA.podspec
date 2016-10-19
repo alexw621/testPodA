@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPodA'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'testPodA summary'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,11 @@ Pod::Spec.new do |s|
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '7.0'
+  # https://docs.nativescript.org/plugins/cocoapods
+  # Installing CocoaPods sets the deployment target of your app to iOS 8,
+  # if not already set to iOS 8 or later.
+  # This change is required because CocoaPods are installed as shared frameworks to ensure that all symbols are available at runtime.
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'testPodA/Classes/*.{h,m}'
 
