@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/alexw621/testPodA'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alex Wong' => 'alex.wong@bbpos.com' }
+  s.author           = { 'xxxx' => 'xxxx@xxxx.com' }
   s.source           = { :git => 'https://github.com/alexw621/testPodA.git'}
 
   # empty for using the root version
@@ -44,11 +44,8 @@ Pod::Spec.new do |s|
   # }
 
   s.public_header_files = 'testPodA/Classes/*.h'
-  s.frameworks = 'AVFoundation', 'CoreBluetooth', 'MediaPlayer', 'CoreGraphics', 'AudioToolbox', 'CoreAudio'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  # s.vendored_libraries = 'testPodA/Classes/libSimplyPrint-1.5.1.a'
-  s.vendored_framework = 'testPodA/Classes/BBPOS.framework'
 
 
 
