@@ -7,22 +7,17 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+xxxx
 
 ## Requirements
 
 ## Installation
 
-testPodA is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "testPodA"
-```
+xxxx
 
 ## Author
 
-Alex Wong, alex.wong@bbpos.com
+xxxx, xxxx@xxxx.com
 
 ## License
 
